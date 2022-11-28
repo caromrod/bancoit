@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1">
+        <meta name="author" content="Carolina Mariel Rodriguez"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=device-width" />
+        <meta name="description" content="proyecto final de programacion"/>
+        <link rel="stylesheet" href="../registro/registro.css">
+        <title>Banco IT</title>
+        
+
+        <!--icono de mi pagina-->
+        <link rel="icon" type="icon/x-image" href="../diseño/img/logo2.png">
+        
+    </head>
+
+    <body>
+            <header>
+              <div class="header-logo">
+                <a href="../index/index.html"><img src="../diseño/img/logo2.png" ></a>
+                <img src="../diseño/img/logo3.png"id="logo" />
+      
+              </div>
+            </header>
+            
+
+
+
+            <main>  
+              <form method="post" class="registro">
+
+                <input type="text"  pattern="[a-zA-Z]+"id="txtNombre" placeholder="Escriba su nombre completo">
+                <input type="tel"  pattern="[0-9]+" id="txtTelefono" placeholder="Ingese un numero de telefono" />
+                <input type="text"  pattern="[a-zA-Z]+" id="txtUsuario" placeholder="Elija un usuario">
+                <input type="email" pattern="[a-zA-Z]+" id="txtEmail" placeholder="Ingrese su email" >
+                <input type="password"  pattern="[a-zA-Z]+" id="txtClave" placeholder="Ingrese una clave" >
+
+                <input type="password" pattern="[a-zA-Z]+" id="txtClave2" placeholder="Repita la clave" >
+
+
+
+                <button type="button" id="btnRegistrar">Registrar</button>
+    
+              </form>
+
+     
+
+
+            </main>
+
+
+
+            <footer>
+                <div class="footer-logo">
+                    <img src="../diseño/img/logo.png">
+              </div>
+
+            </footer>
+
+
+
+        <!--JS con Jquery-->
+        <script src="../funciones/js/jquery/jquery-3.6.0.min.js"></script>
+        <!--JS-->
+        <script src="./registro.js"></script>
+        <script src="../homebanking/Base.js"></script>
+        </body>
+</html>

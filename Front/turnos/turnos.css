@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---------------------------------------------------*/
+/*                COLORES Y FUENTES
+/*---------------------------------------------------*/
+:root
+{
+    --ColorPrincipal:  #161a1e;
+    --ColorSecundario: #30373d;
+    --ColorDetalle: #f7a800;
+
+}
+
+@font-face {
+    font-family: 'Bungee';
+    src: url(../diseño/fonts/BungeeSpice-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../diseño/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../diseño/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+
+
+/*---------------------------------------------------*/
+/*                HEADER
+/*---------------------------------------------------*/
+
+
+
+header {
+    background-color: var(--ColorPrincipal);
+    width: 100%;
+    height: 2.5cm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.header-logo{
+    width: 30%;
+    height: 2.5cm;
+
+}
+
+.header-menu{
+    color: white;
+    width: 70%;
+    height: 2.5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav  li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 1cm;
+
+    
+  
+}
+
+nav li a{
+    height: 5cm;
+    width: 50%;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav li a:hover{
+   
+    background-color: var(--ColorSecundario);
+    color: white;
+   
+}
+
+/*---------------------------------------------------*/
+/*              MAIN
+/*---------------------------------------------------*/
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+/*---------------------------------------------------*/
+/*               diseño
+/*---------------------------------------------------*/
+
+
+aside{
+    width: 20%;
+    height: auto;
+
+
+    background-color: var(--ColorDetalle);
+    background-size: 56px 56px;
+    background-image:
+    linear-gradient(
+        135deg,
+        transparent 55%,
+        #f7a800 55%
+    ),
+     radial-gradient(
+        transparent 6px,
+        #ffffff 6px,
+        #ffffff 10px,
+        transparent 10px,
+        transparent 15px,
+        #ffffff 15px,
+        #ffffff 19px,
+        transparent 19px,
+        transparent 24px,
+        #ffffff 24px,
+        #ffffff 28px,
+        transparent 28px
+    );
+}
+
+/*---------------------------------------------------*/
+/*               Texto 
+/*---------------------------------------------------*/
+
+
+article{
+   width: 50%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   margin: 85px 100px;
+
+   
+}
+
+article h3{
+    font-weight: bolder;
+    color: var(--ColorSecundario);
+    font-family: 'Bungee';
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+article p{
+    font-size: large;
+    margin: 10px 0;
+    font-family: 'Quicksand';
+}
+/*---------------------------------------------------*/
+/*               formulario para turnos
+/*---------------------------------------------------*/
+
+
+.turnos{
+    border: #161a1e 1px solid;
+    width: 100%;
+    padding: 20px;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+legend h4{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+
+form label{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.grupo-botones button{
+    margin-top: 0.5cm;
+    color: white;
+    background-color: #161a1e;
+    border-radius: 100px;
+    height: 1cm;
+    width: 50%;
+}
+
+.grupo-botones{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/*---------------------------------------------------*/
+/*               modal para formulario
+/*---------------------------------------------------*/
+
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    padding: 1rem;
+    visibility: hidden;
+    opacity: 0;
+    background: black;
+}
+
+.modal-presentacion, .es-visible{
+    opacity: 1;
+    visibility:visible;
+}
+
+
+.modal .modal-contenido{
+    position: relative;
+    max-height:  400px;
+    max-width: 600px;
+    background: white;
+    cursor:default;
+    border-radius: 5px;
+
+}
+
+
+.modal .modal-contenido header, footer{
+   background: var(--cabPie);
+
+}
+
+.modal .modal-contenido header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+ }
+
+
+.modal .modal-contenido header .cerrar-modal{
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+/*---------------------------------------------------*/
+/*               footer: 
+/*---------------------------------------------------*/
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ColorPrincipal);
+  
+}

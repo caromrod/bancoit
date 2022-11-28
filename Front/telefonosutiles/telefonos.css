@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---------------------------------------------------*/
+/*                COLORES Y FUENTES
+/*---------------------------------------------------*/
+:root
+{
+    --ColorPrincipal:  #161a1e;
+    --ColorSecundario: #30373d;
+    --ColorDetalle: #f7a800;
+
+}
+
+@font-face {
+    font-family: 'Bungee';
+    src: url(../diseño/fonts/BungeeSpice-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../diseño/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../diseño/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+
+/*---------------------------------------------------*/
+/*                HEADER
+/*---------------------------------------------------*/
+
+
+header {
+    background-color: var(--ColorPrincipal);
+    width: 100%;
+    height: 2.5cm;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    position: fixed;
+}
+
+.header-logo{
+    width: 30%;
+    height: 2.5cm;
+}
+
+
+.header-logo a img{
+    height: 2.3cm;
+}
+
+
+
+.header-menu{
+    color: white;
+    width: 70%;
+    height: 2.5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+nav  li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 1cm;
+
+    
+  
+}
+
+nav li a{
+    height: 2.5;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav li a:hover{
+    
+    background-color: var(--ColorSecundario);
+    color: white;
+}
+
+
+/*--------------------------------------------------*/
+/*               imagen
+/*---------------------------------------------------*/
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+.img img{
+    width: 90%;
+    height: 300px;
+    margin-top: 70px;
+}
+/*--------------------------------------------------*/
+/*               MAIN
+/*---------------------------------------------------*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1600px;
+
+}
+
+.main-aside{
+    width: 20%;
+    height: 1600px;
+    background-color: #161a1e;
+}
+
+.telefonos{
+    width: 80%;
+    height: 1600px;
+    padding: 20px 50px;
+
+
+}
+
+
+.telefonos h1{
+    font-family: 'Bungee';
+}
+.telefonos h4{
+    font-family: 'Oswald';
+}
+.telefonos li{
+    
+    font-family: 'Quicksand';
+}
+/*---------------------------------------------------*/
+/*               Informacion
+/*---------------------------------------------------*/
+
+.informacion{
+
+    width: 100%;
+    height: 2cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.informacion li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 1cm;
+  
+}
+
+.informacion a{
+    font-size: 1.2em;
+}
+
+.informacion li b{
+    font-size: larger;
+
+}
+
+.informacion img{
+    width: 40px;
+    height: 2cm;
+    cursor: pointer;
+    margin-left: 0.3cm;
+}
+
+
+
+/*---------------------------------------------------*/
+/*               footer: 
+/*---------------------------------------------------*/
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: var(--ColorPrincipal);
+    align-items: center;
+}
+
+
+
+
+.footer-info{
+    margin-top: 1cm;
+    padding: 15px 30px;
+
+}
+
+.footer-info p{
+    color: white;
+    cursor: pointer;
+    font-family: 'Oswald';
+}
+
+

@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Bancoit.Api
+build_property.RootNamespace = Bancoit.Api
+build_property.ProjectDir = C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\Bancoit.Api\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\Bancoit.Api
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Banco.Api/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFuY28uQXBpXFBhZ2VzXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Banco.Api/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFuY28uQXBpXFBhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Banco.Api/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFuY28uQXBpXFBhZ2VzXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Banco.Api/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFuY28uQXBpXFBhZ2VzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Banco.Api/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFuY28uQXBpXFBhZ2VzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Banco.Api/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFuY28uQXBpXFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Banco.Api/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFuY28uQXBpXFBhZ2VzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-yephtqn7gk
+
+[C:/Users/rodri.LAPTOP-OBOU6V39/OneDrive/Programación/Escritorio/BancoIT/Back/Bancoit.Api/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g62wkrdn8o

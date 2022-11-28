@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contexto\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Banco.AccesoADatos\Banco.AccesoADatos.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\Bancoit.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
