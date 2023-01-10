@@ -26,3 +26,17 @@ C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\Ba
 C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.pdb
 C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.genruntimeconfig.cache
 C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\Banco.AccesoADatos\obj\Debug\net6.0\ref\Banco.AccesoADatos.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\bin\Debug\net6.0\Banco.AccesoADatos.deps.json
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\bin\Debug\net6.0\Banco.AccesoADatos.runtimeconfig.json
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\bin\Debug\net6.0\Banco.AccesoADatos.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\bin\Debug\net6.0\Banco.AccesoADatos.pdb
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.csproj.AssemblyReference.cache
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.AssemblyInfoInputs.cache
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.AssemblyInfo.cs
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\refint\Banco.AccesoADatos.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.pdb
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\Banco.AccesoADatos.genruntimeconfig.cache
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\Banco.AccesoADatos\obj\Debug\net6.0\ref\Banco.AccesoADatos.dll

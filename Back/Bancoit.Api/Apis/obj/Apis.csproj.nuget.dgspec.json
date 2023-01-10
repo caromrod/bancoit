@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Api\\Apis\\Apis.csproj": {}
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Api\\Apis\\Apis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
+        "projectUniqueName": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
         "projectName": "Banco.AccesoADatos",
-        "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
-        "packagesPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\obj\\",
+        "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
+        "packagesPath": "C:\\Users\\Braian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodri.LAPTOP-OBOU6V39\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Braian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,20 +90,20 @@
         }
       }
     },
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.Banco\\Banco.Banco.csproj": {
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.Banco\\Banco.Banco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.Banco\\Banco.Banco.csproj",
+        "projectUniqueName": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.Banco\\Banco.Banco.csproj",
         "projectName": "Banco.Banco",
-        "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.Banco\\Banco.Banco.csproj",
-        "packagesPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.Banco\\obj\\",
+        "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.Banco\\Banco.Banco.csproj",
+        "packagesPath": "C:\\Users\\Braian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.Banco\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodri.LAPTOP-OBOU6V39\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Braian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,17 +112,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
-                "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj"
+              "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj"
               },
-              "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj": {
-                "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj"
+              "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj"
               }
             }
           }
@@ -155,20 +157,20 @@
         }
       }
     },
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Api\\Apis\\Apis.csproj": {
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Api\\Apis\\Apis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Api\\Apis\\Apis.csproj",
+        "projectUniqueName": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Api\\Apis\\Apis.csproj",
         "projectName": "Apis",
-        "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Api\\Apis\\Apis.csproj",
-        "packagesPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Api\\Apis\\obj\\",
+        "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Api\\Apis\\Apis.csproj",
+        "packagesPath": "C:\\Users\\Braian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Api\\Apis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodri.LAPTOP-OBOU6V39\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Braian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -177,17 +179,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
-                "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj"
+              "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj"
               },
-              "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj": {
-                "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj"
+              "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj": {
+                "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj"
               }
             }
           }
@@ -230,20 +233,20 @@
         }
       }
     },
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj": {
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj",
+        "projectUniqueName": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj",
         "projectName": "Banco.Proveedores",
-        "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj",
-        "packagesPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Bancoit.Proveedores\\obj\\",
+        "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Proveedores\\Banco.Proveedores.csproj",
+        "packagesPath": "C:\\Users\\Braian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Bancoit.Proveedores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodri.LAPTOP-OBOU6V39\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Braian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -252,17 +255,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
-                "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj"
+              "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj"
               },
-              "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.Banco\\Banco.Banco.csproj": {
-                "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.Banco\\Banco.Banco.csproj"
+              "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.Banco\\Banco.Banco.csproj": {
+                "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.Banco\\Banco.Banco.csproj"
               }
             }
           }
@@ -302,20 +306,20 @@
         }
       }
     },
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj": {
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj",
         "projectName": "Bancoit.Dominio",
-        "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj",
-        "packagesPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\ClassLibrary1\\obj\\",
+        "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\ClassLibrary1\\Bancoit.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Braian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodri.LAPTOP-OBOU6V39\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Braian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -324,6 +328,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

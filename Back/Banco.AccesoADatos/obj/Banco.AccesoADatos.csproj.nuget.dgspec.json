@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {}
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
+    "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
+        "projectUniqueName": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
         "projectName": "Banco.AccesoADatos",
-        "projectPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
-        "packagesPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri.LAPTOP-OBOU6V39\\OneDrive\\Programación\\Escritorio\\BancoIT\\Back\\Banco.AccesoADatos\\obj\\",
+        "projectPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\Banco.AccesoADatos.csproj",
+        "packagesPath": "C:\\Users\\Braian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Braian\\Desktop\\PROGRAMACION\\bancoit\\Back\\Banco.AccesoADatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodri.LAPTOP-OBOU6V39\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Braian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

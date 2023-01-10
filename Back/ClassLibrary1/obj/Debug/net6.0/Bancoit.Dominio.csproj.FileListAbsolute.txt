@@ -22,3 +22,15 @@ C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\Cl
 C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\ClassLibrary1\obj\Debug\net6.0\refint\Bancoit.Dominio.dll
 C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.pdb
 C:\Users\rodri.LAPTOP-OBOU6V39\OneDrive\Programación\Escritorio\BancoIT\Back\ClassLibrary1\obj\Debug\net6.0\ref\Bancoit.Dominio.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\bin\Debug\net6.0\Bancoit.Dominio.deps.json
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\bin\Debug\net6.0\Bancoit.Dominio.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\bin\Debug\net6.0\Bancoit.Dominio.pdb
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.csproj.AssemblyReference.cache
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.AssemblyInfoInputs.cache
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.AssemblyInfo.cs
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\refint\Bancoit.Dominio.dll
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\Bancoit.Dominio.pdb
+C:\Users\Braian\Desktop\PROGRAMACION\bancoit\Back\ClassLibrary1\obj\Debug\net6.0\ref\Bancoit.Dominio.dll

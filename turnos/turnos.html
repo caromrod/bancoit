@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0/">
+        <meta name="author" content="Carolina Mariel Rodriguez"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=device-width" />
+        <meta name="description" content="proyecto final de programacion"/>
+        <link rel="stylesheet" href="./turnos.css">
+        <title>Banco IT</title>
+        
+        <!--CSS con bootstrap-->
+        <link rel="stylesheet" href="../funciones/bootstrap/bootstrap.min.css">
+        <!--icono de mi pagina-->
+        <link rel="icon" type="icon/x-image" href="../diseño/img/logo2.png">
+        
+    </head>
+
+    <body>
+      <header>
+        <div class="header-logo">
+          <a href="../index.html"><img src="../diseño/img/logo2.png" id="logo"></a>
+          <img src="../diseño/img/logo3.png" />
+
+        </div>
+
+          </div>
+
+      
+          <nav class="header-menu">
+            <ul>
+
+              <li><a href="#">Personas</a></li>
+              <li><a href="#">Empresas</a></li>
+              <li><a href="#">Institucional</a></li>
+              <li><a href="../turnos/turnos.html">Solicitud de turnos</a></li>
+              <li><a href="../homebanking/homebanking.html">Home Banking</a></li>
+            </ul>
+          </nav>
+      
+
+      </header>
+
+            <main>  
+
+            <aside></aside>
+
+            
+              <article>
+                <h3>¿NECESITAS VENIR A VERNOS?</h3>
+                <p>Para mejorar tu experiencia, te sugerimos planificar tu visita a la sucursal solicitando un turno de atención comercial.
+                 Previo a tu visita, nos estaremos comunicando con vos para ayudarte. 
+                 <strong>No solicitaremos ningún dato personal.</strong> 
+                <br>Pasos para solicitar un turno:
+                <ol>
+                  <li>Ingresá número de CUIT/CUIL/DNI.</li>
+                  <li>Seleccioná tipo de trámite que deseas efectuar.</li>
+                  <li>Elegí sucursal.</li>
+                  <li>Ingresá el correo electrónico donde recibirás el turno y tu número de celular.</li>
+                  <li>Por último, elegí el día y el horario de atención.</li>
+                </ol>
+                    
+                Al finalizar la carga de datos recibirás en el correo electrónico declarado, la confirmación del turno. Deberás descargar e imprimir el mismo o bien mostrar el mail desde tu celular al concurrir a la sucursal seleccionada.
+                Si la fecha requerida para el trámite no está disponible, podrás acercarte a la sucursal sin turno previo para dar respuesta a tu necesidad.
+                Te recomendamos visitar nuestros canales alternativos, donde podrás resolver tus necesidades estés donde estés.
+                Te ayudamos
+                Asistente virtual
+                SI YA TENÉS TURNO, DESCARGÁ TU COMPROBANTE
+                
+                DISFRUTÁ DE TU TIEMPO, VENÍ CON TURNO</p>
+
+                <div class="turnos" >
+                    <form >
+                          <legend><h4>Solicitá tu turno</h4></legend>
+                      
+                          <label for="txtDatos">CUIT/CUIL/DNI</label>
+                          <input type="tel" id="txtDatos" name="txtDatos" pattern="^[0-9]+">
+                        
+                          <label for="SelTramite">Tipo de trámite</label>
+                          <select name="Seltramite" id="SelTramite" > 
+                              <option>Seleccioná tu tipo de trámite</option>
+                              <option value="1" id="Comercial">Atencion comercial</option>
+                              <option value="2" id="Asesoria">Asesoria: Pymes y particulares</option>
+                          </select>
+                      
+                          <label for="SelLinea">Linea</label>
+                          <select name="SelLinea" id="SelLinea">
+                              <option>Seleccioná una linea</option>
+                              <option value="3" > Quiero un producto o servicio</option>
+                              <option value="4">Necesito ayuda con un producto o servicio</option>
+                          </select>
+                      
+                          <label for="txtCalendario">Seleccione la fecha </label>
+                          <input type="date" name="txtCalendario" id="txtCalendario" >
+                          <br>
+
+                          <div class="grupo-botones">
+                            <button type="button" id="btnReservar"  >Reservar</button>
+                            <button type="button" id="btnCancelar">Cancelar</button>
+                            <button type="button" id="btnImprimir" >Imprimir</button>
+                          </div>
+                     </form>
+
+
+
+                </div>
+
+
+              </article>
+
+
+            </main>
+
+ 
+
+
+            <footer>
+                <div class="footer-logo">
+                    <img src="../diseño/img/logo.png">
+              </div>
+
+            </footer>
+
+
+        <!--JS con bootstrap-->
+        <script src="../funciones/js/bootstrap/bootstrap.min.js"></script>
+        <!--JS con Jquery-->
+        <script src="../funciones/js/jquery/jquery-3.6.0.min.js"></script>
+        <!--JS-->
+        <script src="./turnos.js"></script>
+        </body>
+</html>

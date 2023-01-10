@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---------------------------------------------------*/
+/*                COLORES Y FUENTES
+/*---------------------------------------------------*/
+:root
+{
+    --ColorPrincipal:  #161a1e;
+    --ColorSecundario: #30373d;
+    --ColorDetalle: #f7a800;
+
+
+}
+
+@font-face {
+    font-family: 'Bungee';
+    src: url(../diseño/fonts/BungeeSpice-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../diseño/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../diseño/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+@media screen and (max-width:600px) {
+
+
+    .header-logo #logo{
+        visibility: hidden;
+    }
+}
+
+/*---------------------------------------------------*/
+/*                HEADER
+/*---------------------------------------------------*/
+
+
+header {
+    background-color: var(--ColorPrincipal);
+    width: 100%;
+    height: 2.5cm;
+    display: flex;
+    flex-direction: row;
+
+   
+}
+
+.header-logo{
+    width: 30%;
+    height: 2.5cm;
+}
+
+
+
+#logo{
+    position: absolute;
+    top: 1cm;
+}
+
+/*---------------------------------------------------*/
+/*              REGISTRO
+/*---------------------------------------------------*/
+
+main{
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+    padding: 0;
+    margin: 0;
+    background-color: #f7a800;
+    background-size: 56px 56px;
+    background-image:
+    linear-gradient(
+        135deg,
+        transparent 55%,
+        #f7a800 55%
+    ),
+     radial-gradient(
+        transparent 6px,
+        #ffffff 6px,
+        #ffffff 10px,
+        transparent 10px,
+        transparent 15px,
+        #ffffff 15px,
+        #ffffff 19px,
+        transparent 19px,
+        transparent 24px,
+        #ffffff 24px,
+        #ffffff 28px,
+        transparent 28px
+    );
+}
+
+
+
+.registro{
+   border: 10px solid var(--ColorPrincipal);
+   width: 50%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--ColorPrincipal);
+   opacity: 98%;
+
+}
+
+
+.registro input{
+    height: 1cm;
+    width: 90%;
+    margin-top: 0.5cm;
+ 
+    
+}
+
+input::placeholder{
+    font-family: 'Quicksand';
+    font-size: 1.5em;
+    color: #161a1e;
+}
+
+.registro button{
+    height: 1cm;
+    width: 50%;
+    margin-top: 0.5cm;
+    background: var(--ColorPrincipal);
+    color: white;
+    display: flex;
+    font-family: 'Oswald';
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid var(--ColorSecundario);
+}
+
+.registro button:hover{
+    background-color: var(--ColorSecundario);
+}
+
+/*---------------------------------------------------*/
+/*               footer: 
+/*---------------------------------------------------*/
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ColorPrincipal);
+  
+}

@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+  }
+  #logo{
+    visibility: hidden;
+  }
+  
+}
+
+/*---------------------------------------------------*/
+/*                COLORES Y FUENTES
+/*---------------------------------------------------*/
+:root
+{
+    --ColorPrincipal:  #161a1e;
+    --ColorSecundario: #30373d;
+    --ColorDetalle: #f7a800;
+
+
+}
+
+@font-face {
+  font-family: 'Bungee';
+  src: url(../diseño/fonts/BungeeSpice-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../diseño/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url(../diseño/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+
+/*---------------------------------------------------*/
+/*                HEADER
+/*---------------------------------------------------*/
+
+
+header {
+    background-color: var(--ColorPrincipal);
+    width: 100%;
+    height: 2.5cm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+.header-logo{
+    width: 30%;
+    height: 2.5cm;
+}
+
+#logo{
+  position: absolute;
+  top: 1cm;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  font-family: 'Quicksand';
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: var(--ColorDetalle);
+  background: linear-gradient(90deg, var(--ColorDetalle) 0%, var(--ColorDetalle) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px var(--ColorDetalle);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  margin-left: 15cm;
+
+  }
+
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+
+
+/*---------------------------------------------------*/
+/*          MAIN: contiene sidebar y contenido
+/*---------------------------------------------------*/
+
+main{
+  display: flex;
+  flex-direction: row;
+    width: 100%;
+    height: 2300px;
+  background-color: #f7a800;
+
+}
+
+/*---------------------------------------------------*/
+/*              MAIN: SIDEBAR
+/*---------------------------------------------------*/
+.sidebar{
+  height: 260px;
+  width: 60px;
+  background-color: white;
+  transition: width 0.3s;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+
+}
+
+.sidebar:hover{
+  width: 160px;
+  overflow: visible;
+}
+
+
+
+ul{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li a{
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 10px 0;
+  color: var(--ColorPrincipal);
+  margin-left: 10px;
+  font-family: 'Oswald';
+
+}
+
+li a:hover{
+  background-image: linear-gradient(left, orange 75px);
+  color: red;
+}
+
+ul img{
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  left: 10px;
+}
+
+li p{
+  width: 75px;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+}
+/*---------------------------------------------------*/
+/*              MAIN: contenido
+/*---------------------------------------------------*/
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 1500px;
+  margin-left: 2cm;
+
+
+}
+
+/*---------------------------------------------------*/
+/*              MAIN PERFIL
+/*---------------------------------------------------*/
+
+  
+#perfil{
+  width: 80%;
+  height:max-content;
+  margin-top: 1cm;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#perfil h3{
+  font-family: 'Oswald';
+  font-size: 4em;
+
+}
+
+
+
+#perfil h6{
+  font-family: 'Quicksand';
+  font-size: 1.5em;
+}
+
+#perfil h6 a{
+  margin-left: 0.5cm;
+
+}
+/*---------------------------------------------------*/
+/*              MAIN DATOS
+/*---------------------------------------------------*/
+
+  
+#datos{
+  width: 80%;
+  height:max-content;
+  margin-top: 1cm;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#datos h3{
+  font-family: 'Oswald';
+  font-size: 4em;
+
+}
+
+
+
+#datos h6{
+  font-family: 'Quicksand';
+  font-size: 1.5em;
+}
+
+/*---------------------------------------------------*/
+/*              MAIN cuenta
+/*---------------------------------------------------*/
+
+  
+#cuenta{
+  width: 80%;
+  height:max-content;
+  margin-top: 1cm;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#cuenta h3{
+  font-family: 'Oswald';
+  font-size: 4em;
+
+}
+
+
+
+#cuenta h6{
+  font-family: 'Quicksand';
+  font-size: 1.5em;
+}
+
+#cuenta button{
+  height: 1cm;
+  width: 30%;
+  margin-top: 0.5cm;
+  background: var(--ColorPrincipal);
+  color: white;
+  display: flex;
+  font-family: 'Oswald';
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border: 1px solid var(--ColorSecundario);
+}
+
+/*---------------------------------------------------*/
+/*              MAIN tarjetas
+/*---------------------------------------------------*/
+
+  
+
+  
+#tarjetas{
+  width: 80%;
+  height:max-content;
+  margin-top: 1cm;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#tarjetas h3{
+  font-family: 'Oswald';
+  font-size: 4em;
+
+}
+
+
+
+#tarjetas h6{
+  font-family: 'Quicksand';
+  font-size: 1.5em;
+}
+
+
+
+
+/*---------------------------------------------------*/
+/*              MAIN CONVERTIDOR
+/*---------------------------------------------------*/
+#convertidor{
+  width: 80%;
+  height:max-content;
+  margin-top: 1cm;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+::selection{
+  color: #fff;
+  background: #675AFE;
+}
+.convertidor{
+  width: 370px;
+  padding: 30px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+.convertidor header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.contenedor form{
+  margin: 40px 0 20px 0;
+}
+form :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+form p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+form input{
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+form input:focus{
+  padding: 0 14px;
+  border: 2px solid #675AFE;
+}
+form .drop-list{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.drop-list .select-box{
+  display: flex;
+  width: 115px;
+  height: 45px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+.select-box img{
+  max-width: 21px;
+}
+.select-box select{
+  width: auto;
+  font-size: 16px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+.select-box select::-webkit-scrollbar{
+  width: 8px;
+}
+.select-box select::-webkit-scrollbar-track{
+  background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+.drop-list .icon{
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 22px;
+}
+form .exchange-rate{
+  font-size: 17px;
+  margin: 20px 0 30px;
+}
+form button{
+  height: 52px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  background: #675AFE;
+  transition: 0.3s ease;
+}
+form button:hover{
+  background: #4534fe;
+}
+
+/*---------------------------------------------------*/
+/*               footer: 
+/*---------------------------------------------------*/
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ColorPrincipal);
+  
+}
